@@ -5,6 +5,8 @@ var dodger = docment.getElementById('dodger');
 dodger.addEventListener('keydown', function(e){
   if(e.which === 39){
     moveDodgerRight();
+  }else if(e.which === 37){
+    moveDodgerLeft();
   }
 })
 
